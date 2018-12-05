@@ -1,0 +1,148 @@
+body{
+    background-image: url("../images/image1.png");
+    padding:0px;
+}
+#name{
+    padding:27px;
+    background:#0c1c52;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    position:absolute;
+    left:0%;
+    margin:0px;
+}
+header{
+    border-bottom: solid 2px;
+    border-color:#0c1c52;
+    background:rgb(8, 120, 180);
+    overflow:auto;
+    height:78px;
+}
+.container{
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    background:#ffffff;
+    padding:25px;
+    position:relative;
+}
+
+.mainsection{
+    width:1010px;  /* use 50px extra for 25px padding on each side*/
+    margin-left:auto;
+    margin-right:auto;
+    height:78px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+#aboutme, #portfolio{
+    color:#0c1c52;
+    padding-bottom:25px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom:#0c1c52 3px solid;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+#profilepicture{
+    margin-right:30px;
+    margin-top:10px;
+    float:left;
+}
+.content{
+    width:100%;
+    text-align:justify;
+    line-height:37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#303030;
+}
+footer{
+    padding:35px;
+    border-top:14px solid #0c1c52;
+    background:rgb(8, 120, 180);
+    position:fixed;
+    bottom:0px;
+    width:100%;
+}
+#links{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#0c1c52;
+    position:absolute;
+    right:0%;
+    padding:25px;
+}
+a{
+    color:white;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+a:hover{
+    font-size:23px;
+}
+.projectname{
+position:absolute;
+bottom:30px;
+padding:15px;
+background:rgb(8, 120, 180);
+font-family:Georgia, 'Times New Roman', Times, serif;
+color:white;
+font-size:20px;
+width:220px;
+text-align:center;
+}
+.projectbox{
+display:inline-block;
+margin: 15px;
+position:relative;
+}
+
+#leftbox{
+    margin-left:0px;
+}
+input{
+    width:99.5%;
+    height:30px;
+    
+}
+.contact{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#303030;
+    padding:20px 5px 5px 0px;
+}
+
+#first{
+    padding-top:0px;
+}
+
+#box{
+    height:100px;
+}
+
+button{
+    border-style: none;
+    background:rgb(8, 120, 180);
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:18px;
+    padding:10px 30px 10px 30px;
+    margin-top:10px;
+}
+
+@media screen and (max-width:768px)
+{
+.container{width:668px;} /* 768-100px to allow 25px padding on each side */
+.mainsection{width:718px;}
+}
+
+@media screen and (max-width:640px)
+{
+.container{width:540px;}
+.mainsection{width:590px;}
+}
