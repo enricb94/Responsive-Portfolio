@@ -31,8 +31,7 @@ header{
 
 .mainsection{
     width:1010px;  /* use 50px extra for 25px padding on each side*/
-    margin-left:auto;
-    margin-right:auto;
+    
     height:78px;
     margin-left:auto;
     margin-right:auto;
@@ -137,12 +136,16 @@ button{
 
 @media screen and (max-width:768px)
 {
-.container{width:668px;} /* 768-100px to allow 25px padding on each side */
-.mainsection{width:718px;}
+.container{width:568px;} /* 768-100px to allow 25px padding on each side */
+.mainsection{width:618px;}
 }
 
 @media screen and (max-width:640px)
 {
-.container{width:540px;}
-.mainsection{width:590px;}
+.container{width:400px;}
+.mainsection{width:450px; margin:0px;}
+#links{font-size:5px; padding-right:0px;top:5%;}
+a{font-size:18px;}
+.projectbox{margin-left:18%;}
+#leftbox{margin-left:18%;}
 }
