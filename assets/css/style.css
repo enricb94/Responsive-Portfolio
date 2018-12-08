@@ -142,8 +142,9 @@ button{
 {
 .container{width:350px;}
 .mainsection{width:400px; margin:0px;}
-#links{font-size:5px; padding-right:0px;top:5%;}
-a{font-size:18px;}
+#links{font-size:5px; padding-right:0px;top:13%;color:white; }
+a{font-size:14px;}
 .projectbox{margin-left:18%;}
 #leftbox{margin-left:18%;}
+#photo{height:150px; width:150px;}
 }
