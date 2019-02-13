@@ -94,9 +94,11 @@ width:220px;
 text-align:center;
 }
 .projectbox{
-display:inline-block;
+/* display:inline-block; */
 margin: 15px;
 position:relative;
+display: inline-block;
+width:100%;
 }
 
 #leftbox{
@@ -130,6 +132,26 @@ button{
     font-size:18px;
     padding:10px 30px 10px 30px;
     margin-top:10px;
+}
+.info{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;}
+
+.git{color:blue}    
+.bar{
+    height:1px;
+    border-top: #0c1c52 3px solid;
+}
+
+.repo{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: 60px;
+}
+.projTitle{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 @media screen and (max-width:768px)
